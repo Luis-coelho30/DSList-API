@@ -2,7 +2,6 @@ package com.me.dslist.controller;
 
 import com.me.dslist.dto.GameDTO;
 import com.me.dslist.dto.GameMinDTO;
-import com.me.dslist.entities.Game;
 import com.me.dslist.services.GameService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -15,7 +14,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value = "/games")
-public class GameController {
+public class GameListController {
 
     @Autowired
     private GameService gameService;
